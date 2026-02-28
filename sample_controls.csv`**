@@ -1,0 +1,39 @@
+control_id,control_name,framework,domain,status,evidence,owner,last_reviewed
+A.5.1,Information Security Policies,ISO 27001,Governance,Implemented,Policy document v3.2 approved by CISO,CISO,2025-01-15
+A.5.2,Information Security Roles,ISO 27001,Governance,Implemented,RACI matrix documented and distributed,CISO,2025-01-15
+A.5.3,Segregation of Duties,ISO 27001,Governance,Partially Implemented,Segregation in finance; IT pending,IT Manager,2025-02-01
+A.5.4,Management Responsibilities,ISO 27001,Governance,Implemented,Management charter signed by CEO,CEO,2025-01-10
+A.6.1,Screening,ISO 27001,People,Implemented,Background check process for all new hires,HR Director,2025-02-01
+A.6.2,Terms and Conditions of Employment,ISO 27001,People,Implemented,Security clauses in all employment agreements,HR Director,2025-02-01
+A.6.3,Information Security Awareness Training,ISO 27001,People,Partially Implemented,Annual training exists but completion rate is 68%,CISO,2025-01-15
+A.7.1,Physical Security Perimeters,ISO 27001,Physical,Partially Implemented,Badge access at main entrance only,Facilities Manager,2024-11-10
+A.7.2,Physical Entry,ISO 27001,Physical,Implemented,Badge and PIN system active at all entrances,Facilities Manager,2025-01-05
+A.7.3,Securing Offices and Rooms,ISO 27001,Physical,Not Implemented,,Facilities Manager,
+A.7.4,Physical Security Monitoring,ISO 27001,Physical,Not Implemented,,Facilities Manager,
+A.8.1,User Endpoint Devices,ISO 27001,Technology,Implemented,MDM solution deployed on all company devices,IT Manager,2025-02-10
+A.8.2,Privileged Access Rights,ISO 27001,Technology,Partially Implemented,PAM deployed but service accounts not enrolled,IT Manager,2025-01-25
+A.8.5,Secure Authentication,ISO 27001,Technology,Partially Implemented,MFA on critical systems; email and VPN pending,IT Manager,2025-01-15
+A.8.6,Capacity Management,ISO 27001,Technology,Not Implemented,,IT Manager,
+A.8.7,Protection Against Malware,ISO 27001,Technology,Implemented,CrowdStrike EDR deployed on all endpoints,IT Manager,2025-02-12
+A.8.8,Management of Technical Vulnerabilities,ISO 27001,Technology,Partially Implemented,Monthly Qualys scans; no formal patch SLA,IT Manager,2025-01-30
+A.8.9,Configuration Management,ISO 27001,Technology,Not Implemented,,IT Manager,
+A.8.15,Logging,ISO 27001,Technology,Partially Implemented,Basic syslog collection; limited SIEM integration,SOC Analyst,2025-01-15
+A.5.24,Incident Management Planning,ISO 27001,Governance,Not Implemented,,CISO,
+ID.AM-1,Physical devices and systems inventoried,NIST CSF,Identify,Implemented,CMDB maintained with quarterly reconciliation,IT Manager,2025-01-20
+ID.AM-2,Software platforms and applications inventoried,NIST CSF,Identify,Implemented,Software inventory tracked in ServiceNow,IT Manager,2025-01-20
+ID.GV-1,Organizational security policy established,NIST CSF,Identify,Implemented,Information security policy v3.2 approved,CISO,2025-01-15
+ID.RA-1,Asset vulnerabilities identified and documented,NIST CSF,Identify,Partially Implemented,Quarterly scans but no continuous monitoring,SOC Analyst,2025-01-30
+PR.AC-1,Identities and credentials managed,NIST CSF,Protect,Implemented,Active Directory with Okta SSO integration,IT Manager,2025-02-10
+PR.AT-1,Users informed and trained,NIST CSF,Protect,Partially Implemented,Annual training; phishing simulations quarterly,CISO,2025-01-15
+PR.DS-1,Data at rest is protected,NIST CSF,Protect,Implemented,AES-256 encryption on all production databases,DBA Lead,2025-02-05
+PR.IP-1,Baseline configuration of IT systems,NIST CSF,Protect,Not Implemented,,IT Manager,
+PR.PT-1,Audit and log records maintained,NIST CSF,Protect,Partially Implemented,Centralized logging for 60% of systems,SOC Analyst,2025-01-15
+DE.AE-1,Baseline of network operations established,NIST CSF,Detect,Implemented,Network baselines documented and monitored,SOC Analyst,2025-02-10
+DE.CM-1,Network is monitored for security events,NIST CSF,Detect,Implemented,Datadog and SIEM monitoring active 24/7,SOC Analyst,2025-02-10
+DE.CM-4,Malicious code detected,NIST CSF,Detect,Implemented,CrowdStrike EDR with real-time detection,IT Manager,2025-02-12
+RS.RP-1,Response plan executed during or after event,NIST CSF,Respond,Not Implemented,,CISO,
+RS.CO-1,Personnel know their roles in incident response,NIST CSF,Respond,Not Implemented,,CISO,
+RC.RP-1,Recovery plan executed during or after event,NIST CSF,Recover,Not Implemented,,IT Manager,
+```
+
+---
